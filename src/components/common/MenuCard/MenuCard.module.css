@@ -1,0 +1,53 @@
+.Container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.ImageWrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  overflow: hidden;
+}
+.Image {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.Right {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.Title {
+  color: #111913;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.BottomTexts {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.BeforeSaleText {
+  color: #111913;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: line-through;
+  text-decoration-color: #db4040;
+  text-decoration-thickness: 2px;
+}
+.AfterSaleText {
+  color: #111913;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

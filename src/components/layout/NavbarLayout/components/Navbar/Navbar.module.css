@@ -1,0 +1,42 @@
+.Container {
+  width: 100%;
+  height: 88px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  background: #fff;
+  box-shadow: 0px -4px 40px 0px rgba(17, 25, 19, 0.1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100000;
+}
+.SearchButton {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -24px;
+  width: 68px;
+  height: 68px;
+  border-radius: 68px;
+  background: linear-gradient(145deg, #40ae65 4.89%, #4079ae 92.36%);
+  box-shadow: 0px 0px 30px rgba(64, 174, 101, 0.5);
+  transform: scale(1);
+  transition: 0.5s transform ease;
+}
+.Tabs {
+  width: 242px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Tab {
+  padding: 10px;
+  transform: scale(1);
+  transition: 0.5s transform ease;
+}
+.Selected {
+  transform: scale(1.15);
+}

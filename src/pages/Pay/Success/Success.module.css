@@ -1,0 +1,27 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  position: relative;
+}
+.Contents {
+  height: calc(100% - 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Text {
+  color: #111913;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 18px;
+}
+.ButtonWrapper {
+  width: calc(100% - 32px);
+  max-width: calc(420px - 32px);
+  position: fixed;
+  bottom: 32px;
+}
